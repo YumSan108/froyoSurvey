@@ -26,6 +26,12 @@ customer.toppings = "chocolate sprinkles", "wafer straws", "gummy bears";
 customer.futureFlavors = "mango";
 customer.todaysPurchaseCost = 5.32;
 
+//printing out keys only
 let keys = Object.keys(customer);
 
 console.log(keys);
+
+
+let values = Object.values(customer);
+
+console.log(values);
